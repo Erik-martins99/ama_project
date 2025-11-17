@@ -1,4 +1,5 @@
 version: '3.9'
+
 services:
   postgres:
     image: postgres:15
@@ -12,6 +13,19 @@ services:
       - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+
+  api:
+    build: .
+    container_name: spring_api
+    restart: always
+    depends_on:
+      - postgres
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/ama
+      SPRING_DATASOURCE_USERNAME: ama
+      SPRING_DATASOURCE_PASSWORD: adm123
+    ports:
+      - "8080:8080"
 
 volumes:
   pgdata:
