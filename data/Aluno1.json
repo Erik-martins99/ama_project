@@ -1,0 +1,120 @@
+{
+  "nome": "João Silva",
+  "sexo": "Masculino",
+  "tipoDeficiencia": "Autismo Nível 2",
+  "sindrome": "Síndrome X",
+  "dataNascimento": "2015-07-22",
+  "nacionalidade": "Brasileiro",
+  "naturalidade": "São Paulo",
+  "rg": "45.678.123-9",
+  "cpf": "123.456.789-00",
+  "cartaoSUS": "987654321",
+  "planoSaude": "Unimed",
+  "ciptea": "CIP123456",
+  "anoIngresso": 2024,
+  "formaIngresso": "Encaminhamento",
+  "meioTransporte": "Transporte Escolar",
+
+  "endereco": {
+    "logradouro": "Rua das Flores, 123",
+    "bairro": "Centro",
+    "cep": "12345-678",
+    "referencia": "Perto da praça",
+    "caracteristicas": "Casa térrea",
+    "situacao": "Própria",
+    "tipoConstrucao": "Alvenaria",
+    "tipoImovel": "Residencial",
+    "abastecimentoAgua": "Rede Pública",
+    "iluminacao": "Energia Elétrica",
+    "saneamento": "Esgoto",
+    "banheiro": "Interno",
+    "destinoLixo": "Coleta Pública"
+  },
+
+  "situacaoHabitacional": {
+    "numeroComodos": 5,
+    "possuiPasseLivre": "Sim",
+    "cartaoEstacionamentoDeficiente": "Não",
+    "bensPossuidos": "Geladeira, TV, Computador",
+    "profissionalDomestico": false,
+    "rendaFamiliar": "2500",
+    "beneficiosSociais": "Bolsa Família",
+    "pessoasRecebemBpc": 1
+  },
+
+  "saude": {
+    "usoMedicamentos": "Risperidona",
+    "gastosMedicamentos": "Sim",
+    "valorMedioGastos": "200",
+    "alergiaMedicamentos": "Nenhuma",
+    "alergiaInsetos": "Formigas",
+    "alergiaProdutosLimpeza": "Cloro",
+    "historicoClinico": "Crises sensoriais frequentes",
+    "tipoParto": "Cesárea",
+    "diagnosticos": "Autismo nível 2",
+    "profissionaisAtuantes": "Psicólogo, Fonoaudiólogo",
+    "frequentaInstituicao": "Sim",
+    "terapias": "ABA e Fonoaudiologia",
+    "medicoEspecialista": "Dr. Marcos Oliveira",
+    "possuiPessoaComDeficiencia": true,
+    "deficienciaFamiliar": "Tio materno com TEA"
+  },
+
+  "educacao": {
+    "tipoEscola": "Pública",
+    "nomeEscola": "Escola Municipal Esperança Viva",
+    "turno": "Manhã",
+    "matricula": "A123456",
+    "possuiPAE": true,
+    "escolaridadeMae": "Ensino Médio Completo"
+  },
+
+  "responsaveis": [
+    {
+      "nome": "Maria Silva",
+      "parentesco": "Mãe",
+      "telefone1": "(11) 90000-0001",
+      "telefone2": "(11) 95555-1111",
+      "email": "maria.silva@example.com",
+      "rendaFamiliar": "1500",
+      "beneficiosSociais": "Bolsa Família",
+      "pessoasRecebemBpc": 1,
+      "convivenciaFamiliar": "Excelente"
+    },
+    {
+      "nome": "Carlos Silva",
+      "parentesco": "Pai",
+      "telefone1": "(11) 90000-0002",
+      "telefone2": "(11) 97777-2222",
+      "email": "carlos.silva@example.com",
+      "rendaFamiliar": "1000",
+      "beneficiosSociais": "Nenhum",
+      "pessoasRecebemBpc": 0,
+      "convivenciaFamiliar": "Boa"
+    }
+  ],
+
+  "pessoasAutorizadas": [
+    {
+      "nome": "Ana Souza",
+      "cpf": "987.654.321-00",
+      "telefone": "(11) 94444-4444"
+    },
+    {
+      "nome": "Roberto Lima",
+      "cpf": "456.789.123-00",
+      "telefone": "(11) 96666-6666"
+    }
+  ],
+
+  "profissionais": [
+    {
+      "especialidade": "Psicólogo",
+      "nomeProfissional": "Dra. Juliana Costa"
+    },
+    {
+      "especialidade": "Fonoaudiólogo",
+      "nomeProfissional": "Dr. Pedro Araújo"
+    }
+  ]
+}

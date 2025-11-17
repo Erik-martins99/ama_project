@@ -1,0 +1,120 @@
+{
+  "nome": "Luiza Fernandes",
+  "sexo": "Feminino",
+  "tipoDeficiencia": "Deficiência Intelectual",
+  "sindrome": "Síndrome de Down",
+  "dataNascimento": "2014-03-10",
+  "nacionalidade": "Brasileira",
+  "naturalidade": "Curitiba",
+  "rg": "22.334.556-7",
+  "cpf": "789.123.456-99",
+  "cartaoSUS": "3344556677",
+  "planoSaude": "Bradesco Saúde",
+  "ciptea": "CIP998877",
+  "anoIngresso": 2023,
+  "formaIngresso": "Demanda Espontânea",
+  "meioTransporte": "Transporte Próprio",
+
+  "endereco": {
+    "logradouro": "Avenida das Palmeiras, 560",
+    "bairro": "Jardim Aurora",
+    "cep": "82500-200",
+    "referencia": "Próximo ao supermercado Maxxi",
+    "caracteristicas": "Apartamento no 3º andar",
+    "situacao": "Alugado",
+    "tipoConstrucao": "Alvenaria",
+    "tipoImovel": "Apartamento",
+    "abastecimentoAgua": "Rede Pública",
+    "iluminacao": "Energia Elétrica",
+    "saneamento": "Esgoto",
+    "banheiro": "Interno",
+    "destinoLixo": "Coleta Pública"
+  },
+
+  "situacaoHabitacional": {
+    "numeroComodos": 4,
+    "possuiPasseLivre": "Sim",
+    "cartaoEstacionamentoDeficiente": "Sim",
+    "bensPossuidos": "Geladeira, Fogão, Televisão",
+    "profissionalDomestico": false,
+    "rendaFamiliar": "3200",
+    "beneficiosSociais": "Auxílio Inclusão",
+    "pessoasRecebemBpc": 1
+  },
+
+  "saude": {
+    "usoMedicamentos": "Levotiroxina",
+    "gastosMedicamentos": "Sim",
+    "valorMedioGastos": "180",
+    "alergiaMedicamentos": "Amoxicilina",
+    "alergiaInsetos": "Abelhas",
+    "alergiaProdutosLimpeza": "Desinfetantes fortes",
+    "historicoClinico": "Cardiopatia leve, acompanhamento anual",
+    "tipoParto": "Cesárea",
+    "diagnosticos": "Trissomia do Cromossomo 21",
+    "profissionaisAtuantes": "Cardiologista, Fisioterapeuta",
+    "frequentaInstituicao": "Sim",
+    "terapias": "Fisioterapia motora, fonoaudiologia",
+    "medicoEspecialista": "Dra. Helena Marques",
+    "possuiPessoaComDeficiencia": false,
+    "deficienciaFamiliar": "N/A"
+  },
+
+  "educacao": {
+    "tipoEscola": "Particular",
+    "nomeEscola": "Colégio São Marcos",
+    "turno": "Tarde",
+    "matricula": "LZ20231234",
+    "possuiPAE": false,
+    "escolaridadeMae": "Ensino Superior Completo"
+  },
+
+  "responsaveis": [
+    {
+      "nome": "Patrícia Fernandes",
+      "parentesco": "Mãe",
+      "telefone1": "(41) 98888-1122",
+      "telefone2": "(41) 97777-2211",
+      "email": "patricia.fernandes@example.com",
+      "rendaFamiliar": "2000",
+      "beneficiosSociais": "Auxílio Inclusão",
+      "pessoasRecebemBpc": 1,
+      "convivenciaFamiliar": "Muito boa"
+    },
+    {
+      "nome": "Ricardo Fernandes",
+      "parentesco": "Pai",
+      "telefone1": "(41) 96565-6655",
+      "telefone2": "(41) 98484-8888",
+      "email": "ricardo.fernandes@example.com",
+      "rendaFamiliar": "1200",
+      "beneficiosSociais": "Nenhum",
+      "pessoasRecebemBpc": 0,
+      "convivenciaFamiliar": "Razoável"
+    }
+  ],
+
+  "pessoasAutorizadas": [
+    {
+      "nome": "Claudia Rezende",
+      "cpf": "223.445.667-11",
+      "telefone": "(41) 93333-2211"
+    },
+    {
+      "nome": "Gabriel Santos",
+      "cpf": "778.996.554-22",
+      "telefone": "(41) 94444-3322"
+    }
+  ],
+
+  "profissionais": [
+    {
+      "especialidade": "Fisioterapeuta",
+      "nomeProfissional": "Dra. Samanta Ribeiro"
+    },
+    {
+      "especialidade": "Cardiologista",
+      "nomeProfissional": "Dr. Marcelo Azevedo"
+    }
+  ]
+}
